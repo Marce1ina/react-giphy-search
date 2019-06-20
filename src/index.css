@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #4b4b4b;
+}
+
+.app {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #67e6dc;
+}
+
+.input {
+    margin-right: 10px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    height: 30px;
+}
+
+.submitBtn {
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: #ff9f1a;
+}
+
+.submitBtn:hover {
+    background: #ffaf40;
+}
+
+.submitBtn:active {
+    background: #fffa65;
+}
+
+.giphContainer {
+    margin: 50px 0;
+}
