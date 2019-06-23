@@ -13,7 +13,7 @@ class Search extends React.Component {
 
     triggerSearch = () => this.props.onSubmit(this.state.value);
 
-    render = () => {
+    render = function() {
         return (
             <div className="search">
                 <input

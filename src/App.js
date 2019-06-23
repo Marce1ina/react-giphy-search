@@ -32,13 +32,15 @@ class App extends React.Component {
         }
     };
 
-    render = () => (
-        <div className="app">
-            <h1 className="header">Giphy search</h1>
-            <Search onSubmit={this.search} />
-            <Giph src={this.state.giphSrc} loading={this.state.loading} />
-        </div>
-    );
+    render = function() {
+        return (
+            <div className="app">
+                <h1 className="header">Giphy search</h1>
+                <Search onSubmit={this.search} />
+                <Giph src={this.state.giphSrc} loading={this.state.loading} />
+            </div>
+        );
+    };
 }
 
 export default App;
